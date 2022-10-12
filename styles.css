@@ -30,11 +30,11 @@ p {
 }
 
 a {
-  color:rgb(239, 8, 12);
+  color:rgb(65, 192, 15);
   font-size: 20px;
   text-decoration: none;
   font-weight: 100;
-  text-align: auto;
+  text-align: auto; 
 }
 
 hr{
@@ -43,7 +43,7 @@ hr{
 
 
 .dark a {
-  color:rgb(40, 136, 239);
+  color:rgb(255, 0, 0);
 }
 
 header {
@@ -94,7 +94,7 @@ header {
 }
 
 .dark > * {
- color:rgb(255, 255, 255);
+ color:rgb(13, 234, 20);
 }
 
 .main {
@@ -120,19 +120,16 @@ header {
 }
 
 .dark .square {
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(255, 255, 255);
 }
 
 #Review {
-  background-image: url("images/Flashcard-home-page.png");
-  /*background-image: url("images/Flashcard-create-page.png");*/
+  background-image: url("images/Flaskcard-homepage.png");
   background-size: cover;
 }
 
 #BlogIt {
-  /*background-image: url("Blogsite-home-page.png");
-  background-image: url("Blogsite-signup-page.png");
-  background-image: url("Blogsite-post.png");*/
+ 
   background-image: url("images/Blogsite-Posts.png");
   background-size: cover;
 }
@@ -146,7 +143,7 @@ header {
 .sub-section {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 80%;
   margin: auto;
   text-align: auto;
 }
@@ -258,15 +255,17 @@ header {
 footer {
     display: flex;
     justify-content: center;
-    padding: 100px 30px;
+    padding: 100px 30px ;
     background-color:rgb(136, 136, 136);
+    width: 100%;
+  
 }
 
 .dark footer {
   background-color:rgb(28, 28, 28);
 }
 
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 390px) {
   .main-text {
     width: 50%;
   }
@@ -274,8 +273,9 @@ footer {
   .square {
     width: 95%;
     margin: auto;
-    height: 600px;
+    height: 730px;
   }
+
 }
 
 @media only screen and (max-width: 1300px) {
